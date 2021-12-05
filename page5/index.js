@@ -1,7 +1,7 @@
 let username = localStorage.getItem('username');
 let score = localStorage.getItem('score');
 let squantity = localStorage.getItem('Вы загадали');
-document.querySelector('.predict__name').innerHTML ='Поздравляю, Войн ' + username +'!<br> Ты загадал  мне  ' + squantity  + '  и смог правильно назвать ' + score +' героев. Получи своё предскажание от Волшебной Шляпы.';
+document.querySelector('.predict__name').innerHTML ='Поздравляю, Войн ' + username +'!<br> Ты загадал  мне  ' + squantity  + '  и смог правильно назвать ' + score +' героев. Получи своё предсказание от Волшебной Шляпы.';
 let result = document.getElementById("resalt");
 result.innerHTML =``;
 
