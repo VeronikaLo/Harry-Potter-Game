@@ -32,13 +32,13 @@ body {
 
 .predict__name {
     text-align: center;
-    height: 350px;
+    height: 150px;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     color: #ffe693;
     text-shadow: 3px 2px 2px rgb(20, 13, 13);
 
-    line-height: 3;
+    line-height: 1;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 
@@ -72,7 +72,7 @@ body {
     text-align: center;
     font-family: 'Pacifico', cursive;
     color: rgb(241, 157, 47);
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px 0px;
     text-transform: uppercase;
     line-height: 2;
@@ -125,7 +125,7 @@ body {
     display:none;
 }
 
-@media screen and (max-width: 799px) and (min-width:500px) {}
+@media screen and (max-width: 799px) and (min-width:500px) {
 
 
 .head {
@@ -150,12 +150,10 @@ body {
 .predict__name {
     text-align: center;
     height: 150px;
-    font-family: Comforter Brush;
-    font-size: 20px;
+    font-family: 'Pasifico' cursive;
+    font-size: 25px;
     color: #ffe693;
-    font-weight: bold;
     text-shadow: 3px 2px 2px rgb(20, 13, 13);
-    text-transform: uppercase;
     line-height: 1;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -203,7 +201,7 @@ body {
 
 }
 
-
+}
 
 
 @media screen and (max-width: 499px) {
@@ -229,12 +227,10 @@ body {
 
     .predict__name {
         text-align: center;
-        font-family: Comforter Brush;
+        font-family: 'Pacifico', cursive;
         font-size: 20px;
         color: #ffe693;
-        font-weight: bold;
         text-shadow: 3px 2px 2px rgb(20, 13, 13);
-        text-transform: uppercase;
         line-height: 1;
         -webkit-transition: all 0.5s ease;
         transition: all 0.5s ease;
